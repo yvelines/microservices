@@ -11,10 +11,10 @@ spring:
     username: sa
     password:
   mail:
-    host: 127.0.0.1
+    host: localhost
     port: 2525
-    username: YOUR_GMAIL_USERNAME
-    password: YOUR_GMAIL_PASSWORD
+    #username: YOUR_GMAIL_USERNAME
+    #password: YOUR_GMAIL_PASSWORD
     properties.mail.smtp:
       auth: false
       starttls.enable: false
